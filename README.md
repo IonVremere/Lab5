@@ -1,11 +1,17 @@
 # Lab5
 
 int d; // Number of days
+
 // if the student is at least 18 years of age
+
 if (student.Age> = 18)
+
 {
+
     //invitation message directly to the student
+    
     notificationService.SendMessageTo(student, meetingInvitation);
+    
 }
 else // if the student is younger than 18 years 
 {
